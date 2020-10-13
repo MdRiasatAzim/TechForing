@@ -1,0 +1,312 @@
+@charset "utf-8";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+p, a{font-family: 'Montserrat', sans-serif;}
+
+h1, h2, h3, h4, h5, h6{font-family: 'Exo', sans-serif;}
+
+			/* Navbar */
+
+nav{
+	background: rgba(0, 0, 0, 0.3);
+}
+
+nav ul li a{
+	color: white;
+}
+
+nav a:hover{
+	color: #56a038;
+}
+
+			/* Section 01 */
+.navbar-toggler{
+	background-color: #FFF;
+}
+.section_01{
+	height: 890px;
+	background-image:url(../img/Header-image.png);
+}
+
+.section_01 h1{
+	font-size: 55px;
+}
+
+.section_01 p{
+	font-size: 20px;
+	line-height: 35px;
+}
+
+			/* Section 02 */
+
+.section_02{
+	color: #1d2440;
+}
+
+.section_02 .s2_p{
+	color: #939baa;
+}
+
+.section_02 hr{
+	border-color: black;
+}
+
+.section_02 .s2_text{
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.section_02 img{
+	height: auto;
+	width: 100px;
+}
+
+.icon_slider img{
+ 	width: 80%;
+  	padding: 15px;
+}
+
+.container_slider{
+width: 1040px;
+  	margin:0 auto;
+}
+
+.icon_slider .item{ 
+  	padding: 15px;
+}
+
+.icon_slider {
+  	margin:10px;
+}
+.icon_slider img{
+	width:150px;
+}
+
+			/* Section 03 */
+
+.section_03{
+	background-color: #1d2440;
+	height: 1780px;
+	width: 100%;
+}
+
+.section_03 hr{
+	border-color:  white;
+}
+
+.section_03 p{
+	font-size: 18px;
+	text-align: justify;
+	line-height: 30px;
+}
+
+.vds_img{
+	position: relative;
+}
+
+.vds_btn{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	width: 70px;
+}
+
+.vds_item{
+	width: 100%;
+	height: auto;
+}
+
+			/* Section 04 */
+
+.section_04{
+	width: 100%;
+	height: 930px;
+}
+
+.section_04{
+	background-image: url(../img/CTA-image.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+}
+
+.section_04 button{
+	width: 220px;
+	height: 60px;
+	border-radius: 20px;
+	background-color: #5bbc2e;
+	color: white;
+	font-size: 25px;
+	font-family: 'Exo', sans-serif;
+}
+
+			/* Section 05 */
+
+.card-header {
+    min-height: 11rem;
+    background: white;
+}
+
+.section_05 .card{
+    background-color: #d2d6de;
+}
+
+.img-1 {
+    position: relative;
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    top: -127px;
+}
+
+.quotes {
+    position: relative;
+    top: -90px;
+}
+
+.quotes-img {
+    widows: 50px;
+    width: 50px;
+    height: auto;
+}
+
+.carousel-indicators li{
+    cursor: pointer;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    opacity: 0.5;
+    margin: 0 15px 18px 15px;
+    color: #1d2440;
+    background-color: #1d2440;
+    top: -10px;
+    position: relative;
+}
+
+			/* Section 06 */
+
+.section_06 button{
+	background-color: white;
+	border: 1px solid black;
+	width: 420px;
+	height: 70px;
+	font-size: 25px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card{
+	background-color: #f4f4f4;
+}
+
+.section_06 .card-leader{
+	height: 100px;
+}
+
+.section_06 .card-leader h3{
+	background-color: #5bbc2e;
+	color: white;
+	font-weight: bold;
+	padding: 15px 20px;;
+}
+
+			/* Section 07 */
+
+.section_07 .card{
+	width: 320px;
+	margin: 25px;
+}
+
+.section_07 hr{
+	border-color: limegreen;
+	margin: 0px 20px;
+}
+
+			/* Section 08 */
+
+.section_08{
+	background-image: url(../img/Trusted-By-Bg.jpg);
+	height: 750px;
+}
+
+.section_08 img{
+	margin: 25px;
+}
+
+			/* Section 09 */
+
+.section_09{
+	height: 400px;
+	background-color: #172e58;
+}
+
+.section_09 hr{
+	border-color: white;
+}
+
+.section_09 i{
+	font-size: 30px;
+	margin: 0px 10px;
+}
+
+.section_09 a{
+	color: white;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 576px){
+	
+	.nabar{
+		width: 100%;
+		height: auto;
+	}
+	.section_01{height: 700px;}
+	
+	.section_01 h1{font-size: 40px;}
+
+	.section_01 p{
+	font-size: 16px;
+	line-height: 25px;
+	}
+	
+	.section_03{height: 2800px;}
+	
+	
+	.section_04{height: 250px;}  
+	
+	.section_04 h2{font-size: 15px;}
+	
+	.section_04 h4{font-size: 11px;}
+	
+	.section_04 button{
+	width: 100px;
+	height: 25px;
+	border-radius: 10px;
+	font-size: 10px;
+}
+	.section_05 h1{font-size: 25px;	}
+	.section_6 img{
+		width: 50%;
+	}
+	.section_6 button{
+		width: 100%;
+		height: auto;
+	}
+
+
+	.section_08{height: 950px;}
+
+	.section_08 img{width: 25%;}
+
+	.section_09{height: 720px;}}
